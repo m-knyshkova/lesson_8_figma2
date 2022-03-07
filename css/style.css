@@ -7,7 +7,7 @@
   overflow: hidden;
   font-family: "Lato", "Arial", sans-serif;
   margin: 0 auto;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   max-width: 390px;
 }
 
@@ -19,6 +19,7 @@
   line-height: 1.5;
   color: #1e212c;
   margin-bottom: 8px;
+  padding-top: 10px;
 }
 
 .maintitle {
@@ -35,6 +36,9 @@
   margin-bottom: 0;
 }
 
+.list {
+  margin-bottom: 48px;
+}
 .list-item {
   font-style: normal;
   font-weight: 400;
@@ -43,7 +47,8 @@
   color: #424551;
   margin-bottom: 12px;
   line-height: 160%;
-  margin-left: 32px;
+  /* margin-left: 32px; */
+  padding-left: 32px;
 }
 
 .list-item::before {
@@ -69,6 +74,10 @@
   color: white;
   text-align: center;
   background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
-  margin-top: 48px;
-  margin-bottom: 150px;
+  /* margin-top: 48px; */
+  /* margin-bottom: 150px; */
+}
+.text-button:hover {
+  color: green;
+  background: blueviolet;
 }
